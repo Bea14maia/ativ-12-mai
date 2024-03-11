@@ -179,3 +179,6 @@ window.addEventListener('load', () => {
     })
 
 })
+document.getElementById('btnSalvar').addEventListener('click', function (event) {
+    submeter(event);
+});
